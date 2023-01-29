@@ -1,0 +1,1 @@
+cmd_/home/suneja/assignment/cool_module.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/suneja/assignment/cool_module.ko /home/suneja/assignment/cool_module.o /home/suneja/assignment/cool_module.mod.o;  true
