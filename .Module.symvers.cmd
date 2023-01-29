@@ -1,1 +1,0 @@
-cmd_/home/suneja/assignment/Module.symvers := sed 's/\.ko$$/\.o/' /home/suneja/assignment/modules.order | scripts/mod/modpost -m -a  -o /home/suneja/assignment/Module.symvers -e -i Module.symvers   -T -
